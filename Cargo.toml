@@ -1,0 +1,14 @@
+[package]
+name = "dablog"
+version = "0.1.0"
+authors = ["Barend <11941174+bvanrijn@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+docopt = "1"
+serde = { version = "1", features = ["derive"] }
+rusqlite = "0.21.0"
+chrono = "0.4"
+tempfile = "3.1.0"
